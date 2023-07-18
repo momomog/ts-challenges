@@ -1,4 +1,5 @@
-// MEDIUM
+import type { Equal } from '@type-challenges/utils'
+
 // 2 - Get Return Type
 type MyReturnType<T> = T extends (...args: any[]) => infer R ? R : never
 

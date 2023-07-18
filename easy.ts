@@ -1,4 +1,5 @@
-// EASY
+import type { Equal } from '@type-challenges/utils'
+
 // 1 Pick
 type MyPick<T, K extends keyof T> = {
   [Prop in K]: T[Prop]
